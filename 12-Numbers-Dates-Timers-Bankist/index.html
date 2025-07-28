@@ -32,7 +32,7 @@
           maxlength="4"
           class="login__input login__input--pin"
         />
-        <button type="button" class="login__btn">&rarr;</button>
+        <button class="login__btn">&rarr;</button>
       </form>
     </nav>
 
@@ -79,9 +79,9 @@
       <div class="operation operation--transfer">
         <h2>Transfer money</h2>
         <form class="form form--transfer">
-          <input type="text" class="form__input form__input--to"title="input" />
-          <input type="number" class="form__input form__input--amount" title="input"/>
-          <button type="button" class="form__btn form__btn--transfer">&rarr;</button>
+          <input type="text" class="form__input form__input--to" />
+          <input type="number" class="form__input form__input--amount" />
+          <button class="form__btn form__btn--transfer">&rarr;</button>
           <label class="form__label">Transfer to</label>
           <label class="form__label">Amount</label>
         </form>
@@ -91,8 +91,8 @@
       <div class="operation operation--loan">
         <h2>Request loan</h2>
         <form class="form form--loan">
-          <input type="number" class="form__input form__input--loan-amount" title="input"/>
-          <button type="button" class="form__btn form__btn--loan">&rarr;</button>
+          <input type="number" class="form__input form__input--loan-amount" />
+          <button class="form__btn form__btn--loan">&rarr;</button>
           <label class="form__label form__label--loan">Amount</label>
         </form>
       </div>
@@ -101,14 +101,13 @@
       <div class="operation operation--close">
         <h2>Close account</h2>
         <form class="form form--close">
-          <input type="text" class="form__input form__input--user"title="input" />
+          <input type="text" class="form__input form__input--user" />
           <input
             type="password"
             maxlength="6"
-            title="input"
             class="form__input form__input--pin"
           />
-          <button  type="button" class="form__btn form__btn--close">&rarr;</button>
+          <button class="form__btn form__btn--close">&rarr;</button>
           <label class="form__label">Confirm user</label>
           <label class="form__label">Confirm PIN</label>
         </form>
