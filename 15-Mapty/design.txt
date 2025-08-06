@@ -1,0 +1,20 @@
+how to plan make an application
+1- user stories
+2- features
+3- flowchart
+4- Architecture
+
+
+
+1- user stories
+userstory: Descitpion of the application functinality from the user perspective.
+Common format: As a [type of user],I want [an action] so that [a benfit]
+
+2-features
+to turn user stories to features the application make/use
+
+3-flowchart
+make a flow chart of how it works[not important to make it full][from simple in the begining to more complex while working]
+
+4- Architecture
+test 
