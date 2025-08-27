@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="src/sass/main.scss" />
-    <script defer src="src/js/controller.js"></script>
+    <script type="module" defer src="src/js/controller.js"></script>
 
     <title>forkify // Search over 1,000,000 recipes</title>
   </head>
@@ -26,7 +26,7 @@
             class="search__field"
             placeholder="Search over 1,000,000 recipes..."
           />
-          <button type="button" class="btn search__btn">
+          <button type="submit" class="btn search__btn">
             <svg class="search__icon">
               <use href="src/img/icons.svg#icon-search"></use>
             </svg>
@@ -86,9 +86,9 @@
 
       <div class="search-results">
         <ul class="results">
-          <!-- 
-          <li class="preview">
-            <a class="preview__link preview__link--active" href="#23456">
+          
+          <!-- <li class="preview">
+            <a class="preview__link preview__link--active" href="#123456">
               <figure class="preview__fig">
                 <img src="src/img/test-1.jpg" alt="Test" />
               </figure>
@@ -102,8 +102,8 @@
                 </div>
               </div>
             </a>
-          </li>
-           -->
+          </li> -->
+          
         </ul>
 
         <div class="pagination">
@@ -264,13 +264,13 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input title="any" value="TEST" required name="title" type="text" />
+          <input title="any" value="TEST123" required name="title" type="text" />
           <label>URL</label>
-          <input title="any" value="TEST" required name="sourceUrl" type="text" />
+          <input title="any" value="TEST123" required name="sourceUrl" type="text" />
           <label>Image URL</label>
-          <input title="any" value="TEST" required name="image" type="text" />
+          <input title="any" value="TEST123" required name="image" type="text" />
           <label>Publisher</label>
-          <input title="any" value="TEST" required name="publisher" type="text" />
+          <input title="any" value="TEST123" required name="publisher" type="text" />
           <label>Prep time</label>
           <input title="any" value="23" required name="cookingTime" type="number" />
           <label>Servings</label>
@@ -321,7 +321,7 @@
           />
         </div>
 
-        <button type="button" class="btn upload__btn">
+        <button type="submit" class="btn upload__btn">
           <svg>
             <use href="src/img/icons.svg#icon-upload-cloud"></use>
           </svg>
